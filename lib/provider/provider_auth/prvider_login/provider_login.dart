@@ -29,7 +29,7 @@ class ProviderLogin extends ChangeNotifier {
         'password': password,
       });
       if (response.statusCode == 200) {
-        LoginRespose responseModel = LoginRespose.fromJson(
+        LoginResponse responseModel = LoginResponse.fromJson(
             jsonDecode(response.data) as Map<String, dynamic>);
         Cash_Hlper.saveString(key: 'token', value: responseModel.fbToken!);
 
