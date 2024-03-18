@@ -35,7 +35,7 @@ class _RegsterScreenState extends State<RegsterScreen> {
                 children: [
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 11,vertical: 55),
-                    child: Image.asset('img/signup.png'),
+                    child: Image.asset('img/splash.jpg'),
 
 
                   ),
